@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     paddingRight: 16,
     paddingBottom: 16,
     fontSize: 16,
-  }
+  },
 });
 
 export default MemoEditScreen;
