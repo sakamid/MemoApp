@@ -1,0 +1,72 @@
+TypeError: Font.isLoaded is not a function. (In 'Font.isLoaded(fontName)', 'Font.isLoaded' is undefined)
+
+This error is located at:
+    in Icon (at CircleButton.js:41)
+    in RCTView (at View.js:44)
+    in CircleButton (at MemoEditScreen.js:12)
+    in RCTView (at View.js:44)
+    in MemoEditScreen (at App.js:12)
+    in RCTView (at View.js:44)
+    in App (at registerRootComponent.js:17)
+    in RootErrorBoundary (at registerRootComponent.js:16)
+    in ExpoRootComponent (at renderApplication.js:34)
+    in RCTView (at View.js:44)
+    in RCTView (at View.js:44)
+    in AppContainer (at renderApplication.js:33)
+
+Icon
+    createIconSet.js:16:34
+constructClassInstance
+    ReactNativeRenderer-dev.js:8039:26
+updateClassComponent
+    ReactNativeRenderer-dev.js:10474:8
+performUnitOfWork
+    ReactNativeRenderer-dev.js:14091:21
+workLoop
+    ReactNativeRenderer-dev.js:14129:41
+renderRoot
+    ReactNativeRenderer-dev.js:14226:15
+performWorkOnRoot
+    ReactNativeRenderer-dev.js:15193:17
+performWork
+    ReactNativeRenderer-dev.js:15090:24
+performSyncWork
+    ReactNativeRenderer-dev.js:15047:14
+requestWork
+    ReactNativeRenderer-dev.js:14925:19
+scheduleWork
+    ReactNativeRenderer-dev.js:14711:16
+enqueueSetState
+    ReactNativeRenderer-dev.js:7700:17
+setState
+    react.development.js:364:31
+componentWillMount$
+    CircleButton.js:24:18
+tryCatch
+    runtime.js:62:44
+invoke
+    runtime.js:288:30
+tryCatch
+    runtime.js:62:44
+invoke
+    runtime.js:152:28
+<unknown>
+    runtime.js:162:19
+tryCallOne
+    core.js:37:14
+<unknown>
+    core.js:123:25
+_callTimer
+    JSTimers.js:152:14
+_callImmediatesPass
+    JSTimers.js:200:17
+callImmediates
+    JSTimers.js:464:30
+__callImmediates
+    MessageQueue.js:320:6
+<unknown>
+    MessageQueue.js:135:6
+__guard
+    MessageQueue.js:297:10
+flushedQueue
+    MessageQueue.js:134:17
